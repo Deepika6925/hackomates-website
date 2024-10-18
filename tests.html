@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hackathon Partner Finder - Tests</title>
+  <style>
+    body {
+        background-color: #f0f0f0;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .logo img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    
+    .logo span {
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    nav li {
+        margin-right: 20px;
+    }
+    
+    nav a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    nav a.active {
+        color: #ccc;
+    }
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .test-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .test-list li {
+      padding: 20px;
+      border-bottom: 1px solid #ccc;
+    }
+    .test-list li:last-child {
+      border-bottom: none;
+    }
+    .test-details {
+      font-size: 16px;
+      color: #666;
+    }
+    .take-test-btn {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .take-test-btn:hover {
+      background-color: #3e8e41;
+    }
+  </style>
+</head>
+<body>
+    <header>
+		<nav>
+			<div class="logo">
+				<img src="hackgreen.jpg" alt="Hackomates Logo">
+				<span>Hackomates</span>
+			</div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="notifications.html">Notifications</a></li>
+				<li><a href="chats.html">Chats</a></li>
+				<li><a href="profile.html">Profile</a></li>
+				<li><a href="#" class="active">Tests</a></li>
+				<li><a href="contact-us.html">Contact Us</a></li>
+				<li><a href="about-us.html">About Us</a></li>
+			</ul>
+		</nav>
+	</header>
+  <h1>Hackathon Partner Finder - Tests</h1>
+  <ul class="test-list">
+    <li>
+      <h2>Test 1: JavaScript Basics</h2>
+      <p class="test-details">Test your knowledge of JavaScript fundamentals, including variables, data types, and control structures.</p>
+      <button class="take-test-btn" onclick="location.href='test1.html'">Take Test</button>
+    </li>
+    <li>
+      <h2>Test 2: HTML/CSS</h2>
+      <p class="test-details">Demonstrate your understanding of HTML and CSS, including semantic HTML, CSS selectors, and layout techniques.</p>
+      <button class="take-test-btn" onclick="location.href='test2.html'">Take Test</button>
+    </li>
+    <li>
+      <h2>Test 3: Algorithmic Thinking</h2>
+      <p class="test-details">Showcase your problem-solving skills by solving algorithmic challenges, including sorting, searching, and graph traversal.</p>
+      <button class="take-test-btn" onclick="location.href='test3.html'">Take Test</button>
+    </li>
+  </ul>
+</body>
+</html>

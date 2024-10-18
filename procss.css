@@ -1,0 +1,351 @@
+body {
+	background-color: #ebe7e9;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.logo img {
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+
+.logo span {
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a.active {
+	color: #ccc;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.hackathon-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
+.hackathon-box {
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 300px;
+	height: 300px;
+}
+
+.hackathon-box h2 {
+	margin-top: 0;
+}
+
+.hackathon-box p {
+	margin-bottom: 20px;
+}
+
+.hackathon-box .hackathon-details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hackathon-box .hackathon-details span {
+	margin-bottom: 10px;
+}
+
+.poster {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.register-button {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.register-button:hover {
+	background-color: #3e8e41;
+}
+
+.modal {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-content {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	width: 500px;
+	max-width: 90%;
+}
+
+.close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.close:hover {
+	color: #ccc;
+}
+footer{
+	height:20px;
+	background-color: #333;
+	text-decoration-color: white;
+	position:fixed;
+	
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+
+.about-section {
+    padding: 30px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container:after, .row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.card-img img {
+    width: 100%;
+    height: 200px;
+}
+
+.card-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.card-info button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 30%;
+    margin: 20px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.about-img img {
+    width: 50%;
+    height: 200px;
+    margin: 20px;
+}
+
+.about-info div {
+    width: 50%;
+    padding: 20px;
+}
+
+.about-info button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #474e5d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.about{
+	background-color: #555;
+	color:white;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.contact {
+    padding: 50px;
+    text-align: center;
+	background-color: rgb(61, 108, 114);
+}
+
+.contact-form {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.contact-info {
+    padding: 50px;
+    text-align: center;
+	background-color: #464949;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #474e5d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

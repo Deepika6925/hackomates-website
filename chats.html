@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chat</title>
+	<link rel="stylesheet" href="chats.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo">
+				<img src="hackgreen.jpg" alt="Hackomates Logo">
+				<span>Hackomates</span>
+			</div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="notifications.html">Notifications</a></li>
+				<li><a href="#" class="active">Chats</a></li>
+				<li><a href="profile.html">Profile</a></li>
+				<li><a href="tests.html">Tests</a></li>
+				<li><a href="contact-us.html">Contact Us</a></li>
+				<li><a href="about-us.html">About Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="messaging-page">
+			<div class="sidebar">
+				<h2>Messagers</h2>
+				<ul id="messagers-list">
+					<!-- List of messagers' names will be generated here -->
+				</ul>
+			</div>
+			<div class="chat-area">
+				<h2>Chat</h2>
+				<div id="chat-log">
+					<!-- Chat log will be displayed here -->
+				</div>
+				<form id="chat-form">
+					<input type="text" id="message-input" placeholder="Type a message...">
+					<button id="send-button">Send</button>
+				</form>
+			</div>
+		</div>
+	</main>
+
+	<script src="chats.js"></script>
+</body>
+</html>
